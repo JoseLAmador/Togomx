@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
+import {StyleSheet, Text, View, TouchableOpacity, StatusBar} from 'react-native';
 import {Button, Input, Item, Icon, Spinner, Toast} from 'native-base';
 import firebase, {firebaseAuth} from '../firebase/Firebase';
 import {Actions} from 'react-native-router-flux';
@@ -73,6 +73,7 @@ export default class Login extends Component < {} > {
     render(){
         return(
             <View style={styles.img}>
+                <StatusBar backgroundColor="orange" barStyle="light-content"/>
                 <Video
                     source={videopp}
                     rate={1.0}
