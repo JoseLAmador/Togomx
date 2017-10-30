@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import App from './App';
+import Routes from './src/Routes';
 
-AppRegistry.registerComponent('Togomx', () => App);
+AppRegistry.registerComponent('Togomx', () => Routes);
