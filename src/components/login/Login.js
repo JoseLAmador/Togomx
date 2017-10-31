@@ -111,10 +111,17 @@ export default class Login extends Component < {} > {
                     </Item>
 
                     {this.spinnerInicio()}
-
-
                 </View>
 
+                <View style={styles.view2}>
+                    <View style={styles.view3}>
+                        <View style={styles.view}>
+                            <TouchableOpacity onPress={()=> Actions.Recover()} >
+                                <Text style={styles.text}>¿Olvidaste tu Contraseña?</Text>
+                            </TouchableOpacity>
+                        </View>
+                    </View>
+                </View>
 
 
             </View>

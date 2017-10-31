@@ -4,7 +4,7 @@ import {Text, View} from 'react-native';
 export default class Tab2 extends Component < {} > {
     render(){
         return(
-            <Text>Tab2</Text>
+            <Text>Ninguna entrega</Text>
         );
     };
 };
